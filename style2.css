@@ -25,7 +25,7 @@ header {
 	margin-left: 120px;
 	cursor: pointer;
 	font-family: "Lato", sans-serif;
-	color: #212b41;
+	color: #ffffff;
 }
 
 button {
@@ -38,15 +38,17 @@ button {
 }
 button:hover {
 	padding: 9px 25px;
-	background-color: #212b41;
+	background-color: #ffffff;
+	color: #212b41;
 	border: none;
 	border-radius: 50px;
 	cursor: pointer;
 	transition: all 0.3 ease 0s;
 }
+
 body {
 	font-family: "poppins", sans-serif;
-	background-color: #b0d1c3;
+	background-color: #2e3951;
 }
 
 .wrapper {
@@ -57,8 +59,8 @@ body {
 
 .MainArea,
 .SubArea {
-	background-color: #212b41;
-	color: #18d4a3;
+	background-color: #f4fdfb;
+	color: #373e47;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -88,9 +90,9 @@ body {
 		"c1r4 c2r4 c3r4 c4r4"
 		"c1r5 c2r5 c3r5 c4r5";
 	grid-gap: 10px;
-	background-color: #2e3951;
+	background-color: #ffffff;
 	padding: 10px;
-	color: #96a8a0;
+	color: #373e47;
 	margin: 0 auto;
 	cursor: pointer;
 	border-radius: 0 0 20px 20px;
@@ -170,14 +172,14 @@ body {
 	text-align: center;
 	padding: 20px 0;
 	font-size: 30px;
-	color: #0db387;
+	color: #18d4a3;
 }
 
 .sign-top {
 	text-align: center;
 	margin-left: 15px;
-	color: #0db387;
-	background-color: #212b41;
+	color: #373e47;
+	background-color: #f4fdfb;
 	border-radius: 100%;
 	width: 50px;
 	padding: 10px;
@@ -187,7 +189,7 @@ body {
 	text-align: center;
 	margin-left: 15px;
 	color: #212b41;
-	background-color: #0db387;
+	background-color: #d9dfdd;
 	border-radius: 100%;
 	width: 50px;
 	padding: 10px;
@@ -196,8 +198,8 @@ body {
 
 .sign-AC {
 	margin-left: 15px;
-	color: #065842;
-	background-color: #cbd0cf;
+	color: #212b41;
+	background-color: #d9dfdd;
 	border-radius: 100%;
 	width: 50px;
 	padding: 10px;
@@ -205,8 +207,8 @@ body {
 }
 .sign-AC:hover {
 	margin-left: 15px;
-	color: #373e47;
-	background-color: #ffffff;
+	color: #101b18;
+	background-color: #0db387;
 	border-radius: 100%;
 	width: 50px;
 	padding: 10px;
@@ -216,8 +218,8 @@ body {
 .sign {
 	margin-left: 20px;
 	margin-top: 10px;
-	color: #0db387;
-	background-color: #212b41;
+	color: #212b41;
+	background-color: #f4fdfb;
 	border-radius: 100%;
 	height: 50px;
 	width: 50px;
@@ -230,7 +232,7 @@ body {
 	margin-left: 20px;
 	margin-top: 10px;
 	color: #212b41;
-	background-color: #0db387;
+	background-color: #d9dfdd;
 	border-radius: 100%;
 	height: 50px;
 	width: 50px;
@@ -242,7 +244,7 @@ body {
 .equal {
 	margin-left: 20px;
 	margin-top: 10px;
-	color: #212b41;
+	color: #ffffff;
 	background-color: #18d4a3;
 	border-radius: 100%;
 	height: 50px;
@@ -255,8 +257,8 @@ body {
 .equal:hover {
 	margin-left: 20px;
 	margin-top: 10px;
-	color: #18d4a3;
-	background-color: #212b41;
+	color: #ffffff;
+	background-color: #898f8e;
 	border-radius: 100%;
 	height: 50px;
 	width: 50px;

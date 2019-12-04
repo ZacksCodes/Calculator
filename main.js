@@ -59,7 +59,7 @@ class Calculator {
 	}
 
 	compute() {
-		var computed = 0;
+		let computed = 0;
 		var current = parseFloat(this.currentOperand);
 		var previous = parseFloat(this.previousOperand);
 		if (isNaN(current) || isNaN(previous)) {
@@ -73,7 +73,7 @@ class Calculator {
 				computed = previous - current;
 				break;
 			case "*":
-				computed = previous * current;
+				computed = current * previous;
 				break;
 			case "/":
 				computed = previous / current;
@@ -164,3 +164,13 @@ document.addEventListener("keydown", function(event) {
 			break;
 	}
 });
+
+function changeColor() {
+	let head = document.getElementsByTagName("head")[0];
+	let link = document.createElement("link");
+	link.rel = "stylesheet";
+	link.type = "text/css";
+	link.href = "style2.css";
+	head.appendChild(link);
+	document.querySelector(".btn").value = "Wanna Go back ?";
+}
