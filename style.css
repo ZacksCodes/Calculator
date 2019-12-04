@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "poppins", sans-serif;
+	background-color: #b0d1c3;
+}
+
+.wrapper {
+	width: 400px;
+	height: 90%;
+	margin: 0 auto;
+}
+
+.MainArea,
+.SubArea {
+	background-color: #212b41;
+	color: #18d4a3;
+	border-radius: 20px 20px 0 0;
+}
+
+.MainArea {
+	padding: 20%;
+	font-size: 50px;
+}
+
+.SubArea {
+	float: right;
+	padding: 10%;
+	font-size: 20px;
+}
+.previous-number {
+	float: right;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-areas:
+		"c1r1 c2r1 c3r1 c4r1"
+		"c1r2 c2r2 c3r2 c4r2"
+		"c1r3 c2r3 c3r3 c4r3"
+		"c1r4 c2r4 c3r4 c4r4"
+		"c1r5 c2r5 c3r5 c4r5";
+	grid-gap: 10px;
+	background-color: #2e3951;
+	padding: 10px;
+	color: #96a8a0;
+	margin: 0 auto;
+	cursor: pointer;
+	border-radius: 0 0 20px 20px;
+}
+
+.c1r1 {
+	grid-area: c1r1;
+}
+.c2r1 {
+	grid-area: c2r1;
+}
+.c3r1 {
+	grid-area: c3r1;
+}
+.c4r1 {
+	grid-area: c4r1;
+}
+
+.c1r2 {
+	grid-area: c1r2;
+}
+.c2r2 {
+	grid-area: c2r2;
+}
+.c3r2 {
+	grid-area: c3r2;
+}
+.c4r2 {
+	grid-area: c4r2;
+}
+
+.c1r3 {
+	grid-area: c1r3;
+}
+.c2r3 {
+	grid-area: c2r3;
+}
+.c3r3 {
+	grid-area: c3r3;
+}
+.c4r3 {
+	grid-area: c4r3;
+}
+
+.c1r4 {
+	grid-area: c1r4;
+}
+.c2r4 {
+	grid-area: c2r4;
+}
+.c3r4 {
+	grid-area: c3r4;
+}
+.c4r4 {
+	grid-area: c4r4;
+}
+
+.c1r5 {
+	grid-area: c1r5;
+}
+.c2r5 {
+	grid-area: c2r5;
+}
+.c3r5 {
+	grid-area: c3r5;
+}
+.c4r5 {
+	grid-area: c4r5;
+}
+
+.grid-container .calc {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+
+.sign-top {
+	text-align: center;
+	margin-left: 15px;
+	color: #0db387;
+	background-color: #212b41;
+	border-radius: 100%;
+	width: 50px;
+	padding: 10px;
+	font-size: 35px;
+}
+
+.sign-AC {
+	margin-left: 15px;
+	color: #065842;
+	background-color: #cbd0cf;
+	border-radius: 100%;
+	width: 50px;
+	padding: 10px;
+	font-size: 35px;
+}
+
+.sign {
+	margin-left: 20px;
+	margin-top: 10px;
+	color: #0db387;
+	background-color: #212b41;
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+	padding: 8px;
+	font-size: 32px;
+	text-align: center;
+}
+
+.equal {
+	margin-left: 20px;
+	margin-top: 10px;
+	color: #212b41;
+	background-color: #18d4a3;
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+	padding: 8px;
+	font-size: 32px;
+	text-align: center;
+}
