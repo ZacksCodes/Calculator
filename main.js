@@ -1,10 +1,10 @@
 let digitButtons = document.querySelectorAll(".calc");
 let operatorButtons = document.querySelectorAll(".opp");
-let equalButtons = document.querySelectorAll(".equal");
-let clearButtons = document.querySelectorAll(".sign-AC");
-let backButtons = document.querySelectorAll(".backward");
-let previousOperandTextElement = document.querySelectorAll(".previous-number");
-let currentOperandTextElement = document.querySelectorAll(".current-number");
+let equalButtons = document.querySelector(".equal");
+let clearButtons = document.querySelector(".sign-AC");
+let backButtons = document.querySelector(".backward");
+let previousOperandTextElement = document.querySelector(".previous-number");
+let currentOperandTextElement = document.querySelector(".current-number");
 class Calculator {
 	constructor(previousOperandTextElement, currentOperandTextElement) {
 		this.currentOperandTextElement = currentOperandTextElement;
@@ -88,8 +88,7 @@ class Calculator {
 		this.currentOperandTextElement.innerText = this.currentOperand;
 		this.totalLength(this.currentOperand);
 		if (this.operator != null) {
-			this.previousOperandTextElement.innerText =
-				"${this.previousOperand} ${this.operator}";
+			this.previousOperandTextElement.innerText = `${this.previousOperand} ${this.operator}`;
 		}
 	}
 }
@@ -113,25 +112,19 @@ operatorButtons.forEach(button => {
 	});
 });
 
-clearButtons.forEach(buttons => {
-	buttons.addEventListener("click", function() {
-		calculator.clear();
-		calculator.updateDisplay();
-	});
+clearButtons.addEventListener("click", function() {
+	calculator.clear();
+	calculator.updateDisplay();
 });
 
-backButtons.forEach(buttons => {
-	buttons.addEventListener("click", function() {
-		calculator.backspace();
-		calculator.updateDisplay();
-	});
+backButtons.addEventListener("click", function() {
+	calculator.backspace();
+	calculator.updateDisplay();
 });
 
-equalButtons.forEach(button => {
-	button.addEventListener("click", function() {
-		calculator.compute();
-		calculator.updateDisplay();
-	});
+equalButtons.addEventListener("click", function() {
+	calculator.compute();
+	calculator.updateDisplay();
 });
 
 document.addEventListener("keydown", function(event) {
