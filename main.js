@@ -35,7 +35,7 @@ class Calculator {
 	}
 
 	concatNumber(number) {
-		if (this.currentOperand.length === 22) {
+		if (this.currentOperand.length === 17) {
 			return;
 		}
 		if (number === "." && this.currentOperand.includes(".")) {
