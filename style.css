@@ -124,6 +124,12 @@ body {
 	padding: 20px 0;
 	font-size: 30px;
 }
+.grid-container .calc:hover {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+	color: #0db387;
+}
 
 .sign-top {
 	text-align: center;
@@ -135,11 +141,30 @@ body {
 	padding: 10px;
 	font-size: 35px;
 }
+.sign-top:hover {
+	text-align: center;
+	margin-left: 15px;
+	color: #212b41;
+	background-color: #0db387;
+	border-radius: 100%;
+	width: 50px;
+	padding: 10px;
+	font-size: 35px;
+}
 
 .sign-AC {
 	margin-left: 15px;
 	color: #065842;
 	background-color: #cbd0cf;
+	border-radius: 100%;
+	width: 50px;
+	padding: 10px;
+	font-size: 35px;
+}
+.sign-AC:hover {
+	margin-left: 15px;
+	color: #373e47;
+	background-color: #ffffff;
 	border-radius: 100%;
 	width: 50px;
 	padding: 10px;
@@ -159,11 +184,37 @@ body {
 	text-align: center;
 }
 
+.sign:hover {
+	margin-left: 20px;
+	margin-top: 10px;
+	color: #212b41;
+	background-color: #0db387;
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+	padding: 8px;
+	font-size: 32px;
+	text-align: center;
+}
+
 .equal {
 	margin-left: 20px;
 	margin-top: 10px;
 	color: #212b41;
 	background-color: #18d4a3;
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+	padding: 8px;
+	font-size: 32px;
+	text-align: center;
+}
+
+.equal:hover {
+	margin-left: 20px;
+	margin-top: 10px;
+	color: #18d4a3;
+	background-color: #212b41;
 	border-radius: 100%;
 	height: 50px;
 	width: 50px;

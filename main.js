@@ -26,10 +26,10 @@ class Calculator {
 	totalLength(currentOperand) {
 		switch (this.currentOperand.length) {
 			case 6:
-				currentOperandTextElement.style.fontSize = "50px";
+				currentOperandTextElement.style.fontSize = "40px";
 				break;
 			case 9:
-				currentOperandTextElement.style.fontSize = "38px";
+				currentOperandTextElement.style.fontSize = "28px";
 				break;
 		}
 	}
