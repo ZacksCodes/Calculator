@@ -54,22 +54,26 @@ class Calculator {
 
 	compute(){
 		var computed = 0 ;
-		var current = parseFloat(this.currentOperand);
+		var current = parseFloat(this.currentOperand); 
 		var previous = parseFloat(this.previousOperand);
 		if(isNaN(current) || isNaN(previous)){return}
 		switch(this.operator){
 			case "+":
 				computed = current + previous;
-			break;
+				break;
 			case "-":
 				computed = previous - current;
-			break;
-			case "*":
+				break;
+			case "x":
+				console.log("Previous Value = " + previous + "Current Value = " + current)
 				computed = previous * current;
-			break;
-			case "/":
+				break;
+			case "÷":
 				computed = previous / current;
-			break;	
+				break;
+			case "%":
+				computed = previous % current;
+				break;
 		}
 		this.currentOperand = Math.round(computed * 100) / 100;
 		this.previousOperand = "";
